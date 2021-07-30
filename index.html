@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>Calculator</title>
+  <link href="css/styles.css" rel="stylesheet">
+  <link rel="manifest" crossorigin="use-credentials" href="/manifest.json">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <meta name="theme-color" content="white" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="favicon.ico" type="image/x-icon" />
+  <link rel="apple-touch-icon" href="image/hello-icon-icon-152.png">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="yes">
+  <meta name="apple-mobile-web-app-title" content="Calculator">
+  <meta name="msapplication-TileImage" content="images/hello-icon-144.png">
+  <meta name="msapplication-TileColor" content="#FFFFFF">
+</head>
+<body>
+  <div class="calculator-grid">
+      <div class="container-fluid">
+            <div class="output col-lg-12 col-md-6 col-sm-12 col-xs-12">
+                    <div data-previous-operand class="previous-operator"></div>
+                    <div data-current-operand class="current-operator"></div>
+                </div>
+            </div>
+            <div class="container-fluid">
+                <div class="row custom-col">
+                    <button data-all-clear class="btn btn-danger">AC</button>
+                    <button data-delete class="btn btn-danger">DEL</button>
+                    <button data-number class="btn btn-info">.</button>
+                </div>
+            </div>
+            <div class="container-fluid">
+            <div class="row custom-col">
+                    <button data-number class="btn btn-light">1</button>
+                    <button data-number class="btn btn-light">2</button>
+                    <button data-number class="btn btn-light">3</button>
+             </div>
+             </div>
+             <div class="container-fluid">
+            <div class="row custom-col">
+                <button data-number class="btn btn-light">4</button>
+                <button data-number class="btn btn-light">5</button>
+                <button data-number class="btn btn-light">6</button>
+            </div>
+            </div>
+            <div class="container-fluid">
+            <div class="row custom-col">
+                <button data-number class="btn btn-light">7</button>
+                <button data-number class="btn btn-light">8</button>
+                <button data-number class="btn btn-light">9</button>
+            </div>
+            </div>
+            <div class="container-fluid">
+            <div class="row custom-col">
+                <button data-operation class="btn btn-info">*</button>
+                <button data-operation class="btn btn-info">+</button>
+                <button data-operation class="btn btn-info">-</button>
+            </div>
+            </div>
+            <div class="container-fluid">
+            <div class="row custom-col">
+                <button data-operation class="btn btn-info">÷</button>
+                <button class="btn btn-light" data-number>0</button>
+                <button data-equals class="span-two btn btn-success">=</button>
+            </div>
+            </div>
+    </div>
+  </div>
+  <script src="js/script.js"></script>
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+</html>

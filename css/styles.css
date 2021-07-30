@@ -1,0 +1,51 @@
+
+
+body {
+  padding: 0;
+  margin: 0;
+}
+.custom-col{
+  text-align: center;
+  justify-content: center;
+  padding: 10px;
+}
+
+.calculator-grid {
+  height: 100vh;
+  display: grid;
+  justify-content: center;
+  align-content: center;
+
+}
+
+button{
+  width: 100px;
+  height: 60px;
+  padding: 0px;
+  border:1px solid black !important;
+  cursor: pointer;
+}
+ 
+.output {
+  background-color: rgba(0, 0, 0, .75);
+  display: flex;
+  height: 10vh;
+  padding: 10px;
+  align-items: flex-end;
+  justify-content: space-around;
+  flex-direction: column;
+}
+
+.output .previous-operator {
+  color:lightgray;
+  font-size: 1.5rem;
+}
+
+.output .current-operator {
+  color: white;
+  font-size: 1.5rem;
+}
+ 
+@-ms-viewport{
+  width: device-width;
+}
